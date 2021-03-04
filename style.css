@@ -1,0 +1,408 @@
+
+/*https://colorlib.com/preview/#dreams*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstSection{
+    background: #0C2B4B;
+}
+.logoSection{
+    text-align: right;
+    clip-path:polygon(0% 0%, 100% 0%, 94% 100%, 0% 100%);
+}
+.menusection{
+
+}
+.menusection ul{
+    margin-top: 15px;
+}
+.menusection ul li{
+    display: inline-block;
+    padding: 10px 12px;
+    
+}
+.menusection ul li a{
+    padding: 10px 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+
+    
+}
+.menusection ul li a:hover{
+    border-bottom: 2px solid yellow;
+    
+}
+
+.iconMenu ul{
+margin-top: 10px;
+margin-left: -84px;
+}
+.iconMenu ul li{
+    display: inline-block;
+    padding: 10px 12px;
+
+}
+.iconMenu ul li:nth-child(2){
+    margin-left: -8px;
+margin-right: -7px;
+padding-top: 16px;
+
+
+}
+.extraIcon{
+    color: #336597;
+}
+.iconMenu ul li a{
+    color: white;
+    
+
+}
+.headerButton{
+margin-top: 27px;
+}
+.headerButton a{
+    text-decoration: none;
+    padding: 12px 23px;
+    border-radius: 0;
+    color: white;
+    margin-left: -325px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*========================*/
+.secondSection{
+    background-image: url(images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 344px;
+    padding-bottom: 340px;
+}
+.secondSectionContent h5{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    /* font-size: 40px; */
+
+}
+.secondSectionContent h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+}
+.secondSectionButton{
+    width: 18%;
+    margin: 0 auto;
+    
+}
+.secondSectionButton a{
+    border-radius: 0;
+    padding: 12px 18px;
+    color: white;
+    font-weight: bold;
+    margin: 3%;
+    font-size: 15px;
+}
+.second{
+    background: #0C2B4B;
+    color: white;
+    border-radius: 0;
+}
+/*========================*/
+.contentSection{
+    /* padding-left: 54px; */
+    padding-top: 155px;
+}
+.contentSection h2,.videoSectionContent h3{
+    font-size: 38px;
+    padding-bottom: 20px;
+}
+.box1{
+    background:#0C2B4B;
+    padding:45px;
+    margin-top:32px;
+    color:white;
+    font-weight: bold;
+    
+    
+}
+.box1 img{
+    padding-bottom:20px ;
+}
+.box1 h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.secondItem{
+    margin-top: 120px;
+}
+.why{
+    color: rgb(245, 184, 72);
+    font-weight: bold;
+}
+
+.fourSection{
+    position: relative;
+    z-index: 1;
+
+}
+.border{
+   
+    background: white;
+}
+/*=========5th===============*/
+
+.formtextSection{
+text-align: center;
+
+
+}
+.formtextSection h2{
+    font-size: 41px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.formtextSection p{
+font-size: 12px;
+color: orange;
+font-weight: bold;
+
+}
+
+.form input[type="text"],[type="email"],[type="date"],select{
+    width:30%;
+    margin:1%;
+    padding: 1%;
+    border: #504b4b; 
+}
+input[type="submit"]{
+    width:15%;
+    text-align: center;
+    margin-left: 490px;
+    margin-top: 27px;
+    padding: 11px;
+    background: #0C2B4B;
+    color: white;
+    border: none;
+}
+
+.fifthSection{
+    background: #F5F5F5;
+    padding-top: 338px;
+    padding-bottom: 30px;
+    margin-top: -257px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 821% 967% 0% 0%/320% 340%;
+    
+}
+/*========================*/
+.sixthSection{
+    margin-top: 25%;
+    background-image: url(images/pricing-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    
+}
+.sixthSecText{
+
+    text-align: center;
+}
+.sixthSecText p{
+    color:orange;
+    font-size:15px;
+    font-weight: bold;
+}
+.sixthSecText h2{
+    font-size:40px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+.priceBox{
+    text-align: center;
+    background: #0C2B4B4D;
+    padding: 72px 66px;
+    width: 70%;
+    margin-left: 81px;
+  
+   
+}
+.priceBox:hover{
+    background: #0C2B4B;
+}
+
+.priceBox:hover .boxButton{
+    background: rgb(243, 174, 47);
+    color: white;
+}
+.priceBox h5{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+
+}
+.priceBox h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: orange;
+
+}
+.priceBox h4{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 56px;
+    border-bottom: 1px solid rgb(110, 108, 108);
+
+}
+
+.priceBox ul{
+    text-align: center;
+    padding: 20px 0px;
+
+}
+
+.priceBox ul li{
+    display: block;
+padding: 5px 0px;
+    
+}
+
+.priceBox ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+}
+.boxButton{
+    text-decoration: none;
+    background:#0C2B4B ;
+    padding: 15px 80px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+/*========================*/
+.seventhSectionText p{
+    color: orange;
+    margin: 0;
+}
+.seventhSectionText h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.instractorButton{
+    background:#0C2B4B ;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 16px 30px;
+    color: white;
+    font-weight: bold;
+
+}
+.instractorButton:hover{
+    color: white;
+}
+
+
+.instructoricon ul{
+
+}
+.instructoricon ul li{
+    display: inline-block;
+padding: 0px 5px;
+}
+.instructoricon ul li a{
+color: black;
+}
+
+.seventh{
+    padding: 16px 82px;
+}
+.seventh img{
+    padding: 37px;
+}
+.instructoricon{
+    padding: 31px 52px;
+}
+.instructoricon h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+.instructoricon .in{
+    color: orange;
+    font-size: 15px;
+}
+.instructoricon .card-text{
+color:black;
+font-size: 16px;
+}
+.seventh .icon{
+margin-left: -33px;
+padding: 0px 16px;
+}
+
+.footerSection{
+    background: #0C2B4B;
+    color: white;
+    
+}
+.footerSection .row{
+    /* width: 80%; */
+    /* padding-left: 370px; */
+    padding-left: 280px;
+    padding-right: 280px;
+    
+
+}
+.footerSection h3{
+    font-size: 19px;
+    font-weight: bold;
+    padding-left: 28px;
+}
+
+.footerSection ul{
+
+}
+.footerSection ul li{
+    display: block;
+    padding: 10px 0px;
+}
+.footerSection ul li a,p{
+    text-decoration: none;
+    color: rgb(179, 171, 171);
+    font-size: 17px;
+    
+}
+.footerSection img{
+    margin-bottom: 15px;
+
+}
+.footercont{
+    
+    /* border-bottom: 1px solid gray; */
+}
+
+.copyright{
+    /* width: 60%; */
+border-top: 1px solid gray;
+text-align: center;
+margin-left: 357px;
+margin-right: 372px;
+
+}
+.copyright p{
+    font-size: 16px;
+}
